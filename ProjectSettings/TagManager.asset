@@ -12,12 +12,12 @@ TagManager:
   - 
   - Water
   - UI
-  - Black
-  - White
-  - 
-  - 
-  - 
-  - 
+  - BlackPlayer
+  - WhitePlayer
+  - BlackBullet
+  - WhiteBullet
+  - BlackWall
+  - WhiteWall
   - 
   - 
   - 

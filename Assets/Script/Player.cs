@@ -8,7 +8,8 @@ public class Player : MonoBehaviour
     [Tooltip("弾の速度")] float _shotPowerNormal = 10.0f;
     [Tooltip("弾の速度")] float _shotPowerStrong = 15.0f;
     Rigidbody2D _rb;
-    int hp = 0;
+    // int hp = 0;
+    [SerializeField] LayerMask _black;
     [SerializeField] Color _red = Color.red;
     [SerializeField] Color _white = Color.white;
     [SerializeField] Color _grey = Color.grey;
@@ -50,10 +51,8 @@ public class Player : MonoBehaviour
         {
             for (int i = 0; i < _magazineList.Count; i++)
             {
-                Debug.Log("yobare");
                 if (_magazineList[i] != _bulletNormal && _magazineList[i] != _bulletStrong)
                 {
-                    Debug.Log("teru");
                     _magazineList.Remove(_magazineList[i]);
                     _magazineList.Insert(i, _bulletNormal);
                     break;
@@ -129,6 +128,7 @@ public class Player : MonoBehaviour
             _magazineList.Remove(_magazineList[0]);
             _magazineList.Add(null);
             GameObject a = Instantiate(_bulletNormal, gameObject.transform.position, _bulletNormal.transform.rotation);
+            a.layer = 8;
             Vector3 forceDirection = dir.position - gameObject.transform.position;
             Vector3 force = _shotPowerNormal * forceDirection;
             // 力を加えるメソッド
@@ -141,6 +141,7 @@ public class Player : MonoBehaviour
             _magazineList.Remove(_magazineList[0]);
             _magazineList.Add(null);
             GameObject a = Instantiate(_bulletStrong, gameObject.transform.position, _bulletStrong.transform.rotation);
+            a.layer = 8;
             Vector3 forceDirection = dir.position - gameObject.transform.position;
             Vector3 force = _shotPowerStrong * forceDirection;
             // 力を加えるメソッド
