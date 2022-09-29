@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class Player : MonoBehaviour
 {
@@ -22,11 +23,14 @@ public class Player : MonoBehaviour
     [SerializeField] AudioClip _audioClip;
     [SerializeField] List<string> _keyName = new();
 
+    [SerializeField] List<Ground> _wall;
     [SerializeField] float _time = 3;
     [SerializeField] float _timeDelta;
 
     private void Start()
     {
+        _wall = GameObject.FindObjectsOfType<Ground>().ToList();
+        //_wall = Resources.FindObjectsOfTypeAll(typeof(Ground)).ToList();
         _audioSource = GetComponent<AudioSource>();
         _rb = GetComponent<Rigidbody2D>();
     }
@@ -150,6 +154,4 @@ public class Player : MonoBehaviour
             _audioSource.PlayOneShot(_audioClip);
         }
     }
-
-
 }
