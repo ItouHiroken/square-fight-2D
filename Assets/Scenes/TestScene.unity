@@ -320,10 +320,9 @@ GameObject:
   - component: {fileID: 10716670}
   - component: {fileID: 10716675}
   - component: {fileID: 10716674}
-  - component: {fileID: 10716673}
   - component: {fileID: 10716672}
   - component: {fileID: 10716671}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -392,27 +391,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &10716673
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 10716669}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &10716674
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -477,7 +455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1732954615}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -1738,10 +1716,9 @@ GameObject:
   - component: {fileID: 41925587}
   - component: {fileID: 41925592}
   - component: {fileID: 41925591}
-  - component: {fileID: 41925590}
   - component: {fileID: 41925589}
   - component: {fileID: 41925588}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1810,27 +1787,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &41925590
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 41925586}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &41925591
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1895,7 +1851,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 2026796389}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -3621,10 +3577,9 @@ GameObject:
   - component: {fileID: 92662632}
   - component: {fileID: 92662637}
   - component: {fileID: 92662636}
-  - component: {fileID: 92662635}
   - component: {fileID: 92662634}
   - component: {fileID: 92662633}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -3693,27 +3648,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &92662635
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 92662631}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &92662636
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3778,7 +3712,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1543776692}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -4264,11 +4198,10 @@ GameObject:
   - component: {fileID: 115842167}
   - component: {fileID: 115842172}
   - component: {fileID: 115842171}
-  - component: {fileID: 115842170}
   - component: {fileID: 115842169}
   - component: {fileID: 115842168}
-  m_Layer: 10
-  m_Name: Ground (16)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4336,27 +4269,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &115842170
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 115842166}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &115842171
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4421,7 +4333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 2121390412}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -6304,7 +6216,7 @@ GameObject:
   - component: {fileID: 169345686}
   - component: {fileID: 169345685}
   - component: {fileID: 169345684}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6437,7 +6349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1624685208}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -8320,7 +8232,7 @@ GameObject:
   - component: {fileID: 205954312}
   - component: {fileID: 205954311}
   - component: {fileID: 205954310}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8453,7 +8365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1586211261}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -9250,8 +9162,8 @@ GameObject:
   - component: {fileID: 227014226}
   - component: {fileID: 227014230}
   - component: {fileID: 227014229}
-  - component: {fileID: 227014228}
   - component: {fileID: 227014231}
+  - component: {fileID: 227014232}
   m_Layer: 6
   m_Name: Player
   m_TagString: Player
@@ -9326,34 +9238,8 @@ Transform:
   - {fileID: 1655646033}
   - {fileID: 453594136}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!61 &227014228
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 227014225}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
 --- !u!50 &227014229
 Rigidbody2D:
   serializedVersion: 4
@@ -9518,6 +9404,22 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!58 &227014232
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227014225}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!1 &229822032
 GameObject:
   m_ObjectHideFlags: 0
@@ -9684,10 +9586,9 @@ GameObject:
   - component: {fileID: 230856781}
   - component: {fileID: 230856786}
   - component: {fileID: 230856785}
-  - component: {fileID: 230856784}
   - component: {fileID: 230856783}
   - component: {fileID: 230856782}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -9756,27 +9657,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &230856784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 230856780}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &230856785
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9841,7 +9721,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 966427136}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -11091,6 +10971,90 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!1 &254693495
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 254693498}
+  - component: {fileID: 254693497}
+  - component: {fileID: 254693496}
+  m_Layer: 0
+  m_Name: Main Camera (2)
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &254693496
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254693495}
+  m_Enabled: 1
+--- !u!20 &254693497
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254693495}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: -0.8
+    y: 0.16
+    width: 0.66
+    height: 0.66
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 8.159438
+  m_Depth: -2
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &254693498
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254693495}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &261283808
 GameObject:
   m_ObjectHideFlags: 0
@@ -12807,10 +12771,9 @@ GameObject:
   - component: {fileID: 301743480}
   - component: {fileID: 301743485}
   - component: {fileID: 301743484}
-  - component: {fileID: 301743483}
   - component: {fileID: 301743482}
   - component: {fileID: 301743481}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -12879,27 +12842,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &301743483
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 301743479}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &301743484
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12964,7 +12906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1231892063}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -13450,11 +13392,10 @@ GameObject:
   - component: {fileID: 316618815}
   - component: {fileID: 316618820}
   - component: {fileID: 316618819}
-  - component: {fileID: 316618818}
   - component: {fileID: 316618817}
   - component: {fileID: 316618816}
-  m_Layer: 10
-  m_Name: Ground (12)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13522,27 +13463,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &316618818
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 316618814}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &316618819
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -13607,7 +13527,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1868791639}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -14250,7 +14170,7 @@ GameObject:
   - component: {fileID: 340604217}
   - component: {fileID: 340604216}
   - component: {fileID: 340604215}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14383,7 +14303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1494320820}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -15181,7 +15101,7 @@ GameObject:
   - component: {fileID: 361813502}
   - component: {fileID: 361813501}
   - component: {fileID: 361813500}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16263,7 +16183,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 388542086}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: UnderMapLimit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16312,7 +16232,7 @@ Transform:
   - {fileID: 1691302475}
   - {fileID: 2122812520}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &389102554
 GameObject:
@@ -17456,7 +17376,7 @@ Transform:
   - {fileID: 1373847374}
   - {fileID: 1553496316}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &401501161
 GameObject:
@@ -17471,7 +17391,7 @@ GameObject:
   - component: {fileID: 401501165}
   - component: {fileID: 401501164}
   - component: {fileID: 401501163}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17604,7 +17524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1215306734}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -18898,7 +18818,7 @@ GameObject:
   - component: {fileID: 432647326}
   - component: {fileID: 432647325}
   - component: {fileID: 432647324}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19052,10 +18972,9 @@ GameObject:
   - component: {fileID: 434135372}
   - component: {fileID: 434135377}
   - component: {fileID: 434135376}
-  - component: {fileID: 434135375}
   - component: {fileID: 434135374}
   - component: {fileID: 434135373}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -19124,27 +19043,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &434135375
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 434135371}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &434135376
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -19209,7 +19107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 2122812520}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -20055,11 +19953,10 @@ GameObject:
   - component: {fileID: 455576393}
   - component: {fileID: 455576398}
   - component: {fileID: 455576397}
-  - component: {fileID: 455576396}
   - component: {fileID: 455576395}
   - component: {fileID: 455576394}
-  m_Layer: 10
-  m_Name: Ground (5)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20127,27 +20024,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &455576396
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 455576392}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &455576397
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20212,7 +20088,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 838444047}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -20388,11 +20264,10 @@ GameObject:
   - component: {fileID: 462052829}
   - component: {fileID: 462052834}
   - component: {fileID: 462052833}
-  - component: {fileID: 462052832}
   - component: {fileID: 462052831}
   - component: {fileID: 462052830}
-  m_Layer: 10
-  m_Name: Ground (10)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -20460,27 +20335,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &462052832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 462052828}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &462052833
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -20545,7 +20399,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1722029143}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -22736,10 +22590,9 @@ GameObject:
   - component: {fileID: 509582214}
   - component: {fileID: 509582219}
   - component: {fileID: 509582218}
-  - component: {fileID: 509582217}
   - component: {fileID: 509582216}
   - component: {fileID: 509582215}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -22808,27 +22661,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &509582217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 509582213}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &509582218
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -22893,7 +22725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 586561240}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -22948,15 +22780,15 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
+    x: 0.16
+    y: 0.16
+    width: 0.66
+    height: 0.66
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 8
+  orthographic size: 8.159438
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -22998,10 +22830,9 @@ GameObject:
   - component: {fileID: 522733178}
   - component: {fileID: 522733183}
   - component: {fileID: 522733182}
-  - component: {fileID: 522733181}
   - component: {fileID: 522733180}
   - component: {fileID: 522733179}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -23070,27 +22901,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &522733181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 522733177}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &522733182
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23155,7 +22965,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 685835641}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -24261,10 +24071,9 @@ GameObject:
   - component: {fileID: 554572688}
   - component: {fileID: 554572693}
   - component: {fileID: 554572692}
-  - component: {fileID: 554572691}
   - component: {fileID: 554572690}
   - component: {fileID: 554572689}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -24333,27 +24142,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &554572691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 554572687}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &554572692
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -24418,7 +24206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1395888729}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -25371,7 +25159,7 @@ GameObject:
   - component: {fileID: 578926195}
   - component: {fileID: 578926194}
   - component: {fileID: 578926193}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25504,7 +25292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 666570118}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -25680,11 +25468,10 @@ GameObject:
   - component: {fileID: 586561240}
   - component: {fileID: 586561245}
   - component: {fileID: 586561244}
-  - component: {fileID: 586561243}
   - component: {fileID: 586561242}
   - component: {fileID: 586561241}
-  m_Layer: 10
-  m_Name: Ground (6)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25752,27 +25539,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &586561243
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 586561239}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &586561244
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -25837,7 +25603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 509582214}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -26170,7 +25936,7 @@ GameObject:
   - component: {fileID: 597872385}
   - component: {fileID: 597872384}
   - component: {fileID: 597872383}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26303,7 +26069,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 758076379}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -26322,7 +26088,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 601545799}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: LeftMapLimit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26359,7 +26125,7 @@ Transform:
   - {fileID: 1215306734}
   - {fileID: 1926855122}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &601830583
 GameObject:
@@ -28544,7 +28310,7 @@ GameObject:
   - component: {fileID: 637881234}
   - component: {fileID: 637881233}
   - component: {fileID: 637881232}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -28677,7 +28443,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 804809390}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -29010,7 +28776,7 @@ GameObject:
   - component: {fileID: 666570121}
   - component: {fileID: 666570120}
   - component: {fileID: 666570119}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29143,7 +28909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 578926192}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -29164,11 +28930,10 @@ GameObject:
   - component: {fileID: 669539012}
   - component: {fileID: 669539017}
   - component: {fileID: 669539016}
-  - component: {fileID: 669539015}
   - component: {fileID: 669539014}
   - component: {fileID: 669539013}
-  m_Layer: 10
-  m_Name: Ground (26)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29236,27 +29001,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &669539015
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 669539011}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &669539016
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29321,7 +29065,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1230261808}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -29652,11 +29396,10 @@ GameObject:
   - component: {fileID: 685835641}
   - component: {fileID: 685835646}
   - component: {fileID: 685835645}
-  - component: {fileID: 685835644}
   - component: {fileID: 685835643}
   - component: {fileID: 685835642}
-  m_Layer: 10
-  m_Name: Ground (13)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29724,27 +29467,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &685835644
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 685835640}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &685835645
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29809,7 +29531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 522733178}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -30383,7 +30105,7 @@ GameObject:
   - component: {fileID: 693247553}
   m_Layer: 10
   m_Name: Ground
-  m_TagString: Ground
+  m_TagString: StrongBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31156,7 +30878,7 @@ GameObject:
   - component: {fileID: 742584425}
   - component: {fileID: 742584424}
   - component: {fileID: 742584423}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31454,6 +31176,90 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!1 &750832355
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 750832358}
+  - component: {fileID: 750832357}
+  - component: {fileID: 750832356}
+  m_Layer: 0
+  m_Name: Main Camera (3)
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &750832356
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750832355}
+  m_Enabled: 1
+--- !u!20 &750832357
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750832355}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0.16
+    y: 0.16
+    width: 0.66
+    height: 0.66
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 8.159438
+  m_Depth: -2
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &750832358
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 750832355}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &754692362
 GameObject:
   m_ObjectHideFlags: 0
@@ -31777,7 +31583,7 @@ GameObject:
   - component: {fileID: 758076382}
   - component: {fileID: 758076381}
   - component: {fileID: 758076380}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -31910,7 +31716,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 597872382}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -33173,7 +32979,7 @@ GameObject:
   - component: {fileID: 778750350}
   - component: {fileID: 778750349}
   - component: {fileID: 778750348}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33639,7 +33445,7 @@ GameObject:
   - component: {fileID: 785698958}
   - component: {fileID: 785698957}
   - component: {fileID: 785698956}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33772,7 +33578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1274722014}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -33948,11 +33754,10 @@ GameObject:
   - component: {fileID: 796652421}
   - component: {fileID: 796652426}
   - component: {fileID: 796652425}
-  - component: {fileID: 796652424}
   - component: {fileID: 796652423}
   - component: {fileID: 796652422}
-  m_Layer: 10
-  m_Name: Ground (19)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -34020,27 +33825,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &796652424
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 796652420}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &796652425
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -34105,7 +33889,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 2000371906}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -34128,7 +33912,7 @@ GameObject:
   - component: {fileID: 804809393}
   - component: {fileID: 804809392}
   - component: {fileID: 804809391}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34261,7 +34045,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 637881231}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -35522,10 +35306,9 @@ GameObject:
   - component: {fileID: 826595446}
   - component: {fileID: 826595451}
   - component: {fileID: 826595450}
-  - component: {fileID: 826595449}
   - component: {fileID: 826595448}
   - component: {fileID: 826595447}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -35594,27 +35377,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &826595449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 826595445}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &826595450
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -35679,7 +35441,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1629183449}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -35689,6 +35451,90 @@ MonoBehaviour:
   - Player
   _normalBulletPower: 10
   _strongBulletPower: 15
+--- !u!1 &826928480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 826928483}
+  - component: {fileID: 826928482}
+  - component: {fileID: 826928481}
+  m_Layer: 0
+  m_Name: Main Camera (1)
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &826928481
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826928480}
+  m_Enabled: 1
+--- !u!20 &826928482
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826928480}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0.8
+    y: 0.16
+    width: 0.66
+    height: 0.66
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 8.159438
+  m_Depth: -2
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &826928483
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 826928480}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &827330722
 GameObject:
   m_ObjectHideFlags: 0
@@ -36010,10 +35856,9 @@ GameObject:
   - component: {fileID: 838444047}
   - component: {fileID: 838444052}
   - component: {fileID: 838444051}
-  - component: {fileID: 838444050}
   - component: {fileID: 838444049}
   - component: {fileID: 838444048}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -36082,27 +35927,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &838444050
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 838444046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &838444051
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -36167,7 +35991,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 455576393}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -37512,10 +37336,9 @@ GameObject:
   - component: {fileID: 895245671}
   - component: {fileID: 895245676}
   - component: {fileID: 895245675}
-  - component: {fileID: 895245674}
   - component: {fileID: 895245673}
   - component: {fileID: 895245672}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -37584,27 +37407,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &895245674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 895245670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &895245675
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -37669,7 +37471,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1440081857}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -40172,7 +39974,7 @@ GameObject:
   - component: {fileID: 961870099}
   - component: {fileID: 961870098}
   - component: {fileID: 961870097}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40305,7 +40107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1031296265}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -40481,11 +40283,10 @@ GameObject:
   - component: {fileID: 966427136}
   - component: {fileID: 966427141}
   - component: {fileID: 966427140}
-  - component: {fileID: 966427139}
   - component: {fileID: 966427138}
   - component: {fileID: 966427137}
-  m_Layer: 10
-  m_Name: Ground (23)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -40553,27 +40354,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &966427139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 966427135}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &966427140
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -40638,7 +40418,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 230856781}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -42674,11 +42454,10 @@ GameObject:
   - component: {fileID: 1004556561}
   - component: {fileID: 1004556566}
   - component: {fileID: 1004556565}
-  - component: {fileID: 1004556564}
   - component: {fileID: 1004556563}
   - component: {fileID: 1004556562}
-  m_Layer: 10
-  m_Name: Ground (9)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -42746,27 +42525,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1004556564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1004556560}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1004556565
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -42831,7 +42589,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1004707190}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -42852,10 +42610,9 @@ GameObject:
   - component: {fileID: 1004707190}
   - component: {fileID: 1004707195}
   - component: {fileID: 1004707194}
-  - component: {fileID: 1004707193}
   - component: {fileID: 1004707192}
   - component: {fileID: 1004707191}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -42924,27 +42681,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1004707193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1004707189}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1004707194
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -43009,7 +42745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1004556561}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -43652,7 +43388,7 @@ GameObject:
   - component: {fileID: 1031296268}
   - component: {fileID: 1031296267}
   - component: {fileID: 1031296266}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43785,7 +43521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 961870096}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -44736,10 +44472,9 @@ GameObject:
   - component: {fileID: 1070217776}
   - component: {fileID: 1070217781}
   - component: {fileID: 1070217780}
-  - component: {fileID: 1070217779}
   - component: {fileID: 1070217778}
   - component: {fileID: 1070217777}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -44808,27 +44543,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1070217779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1070217775}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1070217780
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -44893,7 +44607,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1731918073}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -45534,11 +45248,10 @@ GameObject:
   - component: {fileID: 1088444008}
   - component: {fileID: 1088444013}
   - component: {fileID: 1088444012}
-  - component: {fileID: 1088444011}
   - component: {fileID: 1088444010}
   - component: {fileID: 1088444009}
-  m_Layer: 10
-  m_Name: Ground (2)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45606,27 +45319,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1088444011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1088444007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1088444012
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -45691,7 +45383,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1131364249}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -47107,11 +46799,10 @@ GameObject:
   - component: {fileID: 1107498819}
   - component: {fileID: 1107498824}
   - component: {fileID: 1107498823}
-  - component: {fileID: 1107498822}
   - component: {fileID: 1107498821}
   - component: {fileID: 1107498820}
-  m_Layer: 10
-  m_Name: Ground (20)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -47179,27 +46870,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1107498822
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1107498818}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1107498823
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -47264,7 +46934,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1847764402}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -47287,7 +46957,7 @@ GameObject:
   - component: {fileID: 1117735195}
   - component: {fileID: 1117735194}
   - component: {fileID: 1117735193}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -47420,7 +47090,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1926855122}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -48836,10 +48506,9 @@ GameObject:
   - component: {fileID: 1131364249}
   - component: {fileID: 1131364254}
   - component: {fileID: 1131364253}
-  - component: {fileID: 1131364252}
   - component: {fileID: 1131364251}
   - component: {fileID: 1131364250}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -48908,27 +48577,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1131364252
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1131364248}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1131364253
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -48993,7 +48641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1088444008}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -49481,7 +49129,7 @@ GameObject:
   - component: {fileID: 1139709750}
   - component: {fileID: 1139709749}
   - component: {fileID: 1139709748}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49614,7 +49262,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1793488814}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -51497,7 +51145,7 @@ GameObject:
   - component: {fileID: 1192465379}
   - component: {fileID: 1192465378}
   - component: {fileID: 1192465377}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51630,7 +51278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1801645381}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -52118,7 +51766,7 @@ GameObject:
   - component: {fileID: 1215306737}
   - component: {fileID: 1215306736}
   - component: {fileID: 1215306735}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52251,7 +51899,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 401501162}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -52582,10 +52230,9 @@ GameObject:
   - component: {fileID: 1230261808}
   - component: {fileID: 1230261813}
   - component: {fileID: 1230261812}
-  - component: {fileID: 1230261811}
   - component: {fileID: 1230261810}
   - component: {fileID: 1230261809}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -52654,27 +52301,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1230261811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1230261807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1230261812
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -52739,7 +52365,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 669539012}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -52915,11 +52541,10 @@ GameObject:
   - component: {fileID: 1231892063}
   - component: {fileID: 1231892068}
   - component: {fileID: 1231892067}
-  - component: {fileID: 1231892066}
   - component: {fileID: 1231892065}
   - component: {fileID: 1231892064}
-  m_Layer: 10
-  m_Name: Ground (21)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52987,27 +52612,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1231892066
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1231892062}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1231892067
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -54800,7 +54404,7 @@ GameObject:
   - component: {fileID: 1274722017}
   - component: {fileID: 1274722016}
   - component: {fileID: 1274722015}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54933,7 +54537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 785698955}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -56659,10 +56263,9 @@ GameObject:
   - component: {fileID: 1334828177}
   - component: {fileID: 1334828182}
   - component: {fileID: 1334828181}
-  - component: {fileID: 1334828180}
   - component: {fileID: 1334828179}
   - component: {fileID: 1334828178}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -56731,27 +56334,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1334828180
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1334828176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1334828181
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -56816,7 +56398,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1351979163}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -56839,7 +56421,7 @@ GameObject:
   - component: {fileID: 1338726960}
   - component: {fileID: 1338726959}
   - component: {fileID: 1338726958}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56972,7 +56554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1974530418}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -57458,11 +57040,10 @@ GameObject:
   - component: {fileID: 1351979163}
   - component: {fileID: 1351979168}
   - component: {fileID: 1351979167}
-  - component: {fileID: 1351979166}
   - component: {fileID: 1351979165}
   - component: {fileID: 1351979164}
-  m_Layer: 10
-  m_Name: Ground (8)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57530,27 +57111,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1351979166
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1351979162}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1351979167
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -57615,7 +57175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1334828177}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -57638,7 +57198,7 @@ GameObject:
   - component: {fileID: 1354117224}
   - component: {fileID: 1354117223}
   - component: {fileID: 1354117222}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57771,7 +57331,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1959064125}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -59187,11 +58747,10 @@ GameObject:
   - component: {fileID: 1395888729}
   - component: {fileID: 1395888734}
   - component: {fileID: 1395888733}
-  - component: {fileID: 1395888732}
   - component: {fileID: 1395888731}
   - component: {fileID: 1395888730}
-  m_Layer: 10
-  m_Name: Ground (3)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -59259,27 +58818,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1395888732
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1395888728}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1395888733
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -59344,7 +58882,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 554572688}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -59522,7 +59060,7 @@ GameObject:
   - component: {fileID: 1397267432}
   - component: {fileID: 1397267431}
   - component: {fileID: 1397267430}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -59655,7 +59193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 2063711925}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -59676,10 +59214,9 @@ GameObject:
   - component: {fileID: 1398907661}
   - component: {fileID: 1398907666}
   - component: {fileID: 1398907665}
-  - component: {fileID: 1398907664}
   - component: {fileID: 1398907663}
   - component: {fileID: 1398907662}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -59748,27 +59285,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1398907664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1398907660}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1398907665
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -59833,7 +59349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1987094782}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -59854,10 +59370,9 @@ GameObject:
   - component: {fileID: 1403290744}
   - component: {fileID: 1403290749}
   - component: {fileID: 1403290748}
-  - component: {fileID: 1403290747}
   - component: {fileID: 1403290746}
   - component: {fileID: 1403290745}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -59926,27 +59441,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1403290747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1403290743}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1403290748
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -60011,7 +59505,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1699618542}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -61303,11 +60797,10 @@ GameObject:
   - component: {fileID: 1440081857}
   - component: {fileID: 1440081862}
   - component: {fileID: 1440081861}
-  - component: {fileID: 1440081860}
   - component: {fileID: 1440081859}
   - component: {fileID: 1440081858}
-  m_Layer: 10
-  m_Name: Ground (14)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -61375,27 +60868,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1440081860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1440081856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1440081861
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -61460,7 +60932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 895245671}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -61789,7 +61261,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1452181649}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: UpMapLimit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -61838,7 +61310,7 @@ Transform:
   - {fileID: 1534156671}
   - {fileID: 434135372}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1458535613
 GameObject:
@@ -63401,10 +62873,9 @@ GameObject:
   - component: {fileID: 1486824037}
   - component: {fileID: 1486824042}
   - component: {fileID: 1486824041}
-  - component: {fileID: 1486824040}
   - component: {fileID: 1486824039}
   - component: {fileID: 1486824038}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -63473,27 +62944,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1486824040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486824036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1486824041
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -63558,7 +63008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1809572558}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -63891,7 +63341,7 @@ GameObject:
   - component: {fileID: 1494320823}
   - component: {fileID: 1494320822}
   - component: {fileID: 1494320821}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64024,7 +63474,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 340604214}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -65130,10 +64580,9 @@ GameObject:
   - component: {fileID: 1534156671}
   - component: {fileID: 1534156676}
   - component: {fileID: 1534156675}
-  - component: {fileID: 1534156674}
   - component: {fileID: 1534156673}
   - component: {fileID: 1534156672}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -65202,27 +64651,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1534156674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1534156670}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1534156675
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -65287,7 +64715,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1691302475}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -65771,7 +65199,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1543267739}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: RightMapLimit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65808,7 +65236,7 @@ Transform:
   - {fileID: 401501162}
   - {fileID: 1117735192}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1543776691
 GameObject:
@@ -65821,11 +65249,10 @@ GameObject:
   - component: {fileID: 1543776692}
   - component: {fileID: 1543776697}
   - component: {fileID: 1543776696}
-  - component: {fileID: 1543776695}
   - component: {fileID: 1543776694}
   - component: {fileID: 1543776693}
-  m_Layer: 10
-  m_Name: Ground (17)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65893,27 +65320,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1543776695
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1543776691}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1543776696
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -65978,7 +65384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 92662632}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -65999,11 +65405,10 @@ GameObject:
   - component: {fileID: 1547827790}
   - component: {fileID: 1547827795}
   - component: {fileID: 1547827794}
-  - component: {fileID: 1547827793}
   - component: {fileID: 1547827792}
   - component: {fileID: 1547827791}
-  m_Layer: 10
-  m_Name: Ground (22)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66071,27 +65476,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1547827793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1547827789}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1547827794
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -66156,7 +65540,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1720486638}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -67264,7 +66648,7 @@ GameObject:
   - component: {fileID: 1586211264}
   - component: {fileID: 1586211263}
   - component: {fileID: 1586211262}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -67397,7 +66781,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 205954309}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -69435,7 +68819,7 @@ GameObject:
   - component: {fileID: 1624685211}
   - component: {fileID: 1624685210}
   - component: {fileID: 1624685209}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69568,7 +68952,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 169345683}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -70364,11 +69748,10 @@ GameObject:
   - component: {fileID: 1629183449}
   - component: {fileID: 1629183454}
   - component: {fileID: 1629183453}
-  - component: {fileID: 1629183452}
   - component: {fileID: 1629183451}
   - component: {fileID: 1629183450}
-  m_Layer: 10
-  m_Name: Ground (11)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70436,27 +69819,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1629183452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1629183448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1629183453
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -70521,7 +69883,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 826595446}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -70686,6 +70048,90 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!1 &1631526196
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1631526199}
+  - component: {fileID: 1631526198}
+  - component: {fileID: 1631526197}
+  m_Layer: 0
+  m_Name: Main Camera (4)
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1631526197
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631526196}
+  m_Enabled: 1
+--- !u!20 &1631526198
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631526196}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0.16
+    y: 0.16
+    width: 0.66
+    height: 0.66
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 8.159438
+  m_Depth: -2
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1631526199
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631526196}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1631654056
 GameObject:
   m_ObjectHideFlags: 0
@@ -73987,11 +73433,10 @@ GameObject:
   - component: {fileID: 1691302475}
   - component: {fileID: 1691302480}
   - component: {fileID: 1691302479}
-  - component: {fileID: 1691302478}
   - component: {fileID: 1691302477}
   - component: {fileID: 1691302476}
-  m_Layer: 10
-  m_Name: Ground (28)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74059,27 +73504,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1691302478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1691302474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1691302479
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -74144,7 +73568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1534156671}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -74320,11 +73744,10 @@ GameObject:
   - component: {fileID: 1699618542}
   - component: {fileID: 1699618547}
   - component: {fileID: 1699618546}
-  - component: {fileID: 1699618545}
   - component: {fileID: 1699618544}
   - component: {fileID: 1699618543}
-  m_Layer: 10
-  m_Name: Ground (25)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74392,27 +73815,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1699618545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1699618541}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1699618546
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -74477,7 +73879,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1403290744}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -74963,10 +74365,9 @@ GameObject:
   - component: {fileID: 1720486638}
   - component: {fileID: 1720486643}
   - component: {fileID: 1720486642}
-  - component: {fileID: 1720486641}
   - component: {fileID: 1720486640}
   - component: {fileID: 1720486639}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -75035,27 +74436,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1720486641
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1720486637}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1720486642
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -75120,7 +74500,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1547827790}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -75141,10 +74521,9 @@ GameObject:
   - component: {fileID: 1722029143}
   - component: {fileID: 1722029148}
   - component: {fileID: 1722029147}
-  - component: {fileID: 1722029146}
   - component: {fileID: 1722029145}
   - component: {fileID: 1722029144}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -75213,27 +74592,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1722029146
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1722029142}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1722029147
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -75298,7 +74656,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 462052829}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -75784,11 +75142,10 @@ GameObject:
   - component: {fileID: 1731918073}
   - component: {fileID: 1731918078}
   - component: {fileID: 1731918077}
-  - component: {fileID: 1731918076}
   - component: {fileID: 1731918075}
   - component: {fileID: 1731918074}
-  m_Layer: 10
-  m_Name: Ground (1)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -75856,27 +75213,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1731918076
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1731918072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1731918077
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -75941,7 +75277,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1070217776}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -75962,11 +75298,10 @@ GameObject:
   - component: {fileID: 1732954615}
   - component: {fileID: 1732954620}
   - component: {fileID: 1732954619}
-  - component: {fileID: 1732954618}
   - component: {fileID: 1732954617}
   - component: {fileID: 1732954616}
-  m_Layer: 10
-  m_Name: Ground (4)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -76034,27 +75369,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1732954618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1732954614}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1732954619
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -76119,7 +75433,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 10716670}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -77173,7 +76487,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1762476908
 MonoBehaviour:
@@ -78533,7 +77847,7 @@ GameObject:
   - component: {fileID: 1793488817}
   - component: {fileID: 1793488816}
   - component: {fileID: 1793488815}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78666,7 +77980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1139709747}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -78997,10 +78311,9 @@ GameObject:
   - component: {fileID: 1799127505}
   - component: {fileID: 1799127510}
   - component: {fileID: 1799127509}
-  - component: {fileID: 1799127508}
   - component: {fileID: 1799127507}
   - component: {fileID: 1799127506}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -79069,27 +78382,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1799127508
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1799127504}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1799127509
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -79154,7 +78446,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1969655405}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -79177,7 +78469,7 @@ GameObject:
   - component: {fileID: 1801645384}
   - component: {fileID: 1801645383}
   - component: {fileID: 1801645382}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79310,7 +78602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1192465376}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -79641,11 +78933,10 @@ GameObject:
   - component: {fileID: 1809572558}
   - component: {fileID: 1809572563}
   - component: {fileID: 1809572562}
-  - component: {fileID: 1809572561}
   - component: {fileID: 1809572560}
   - component: {fileID: 1809572559}
-  m_Layer: 10
-  m_Name: Ground (7)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79713,27 +79004,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1809572561
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1809572557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1809572562
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -79798,7 +79068,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1486824037}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -81214,10 +80484,9 @@ GameObject:
   - component: {fileID: 1847764402}
   - component: {fileID: 1847764407}
   - component: {fileID: 1847764406}
-  - component: {fileID: 1847764405}
   - component: {fileID: 1847764404}
   - component: {fileID: 1847764403}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -81286,27 +80555,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1847764405
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1847764401}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1847764406
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -81371,7 +80619,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1107498819}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -82167,10 +81415,9 @@ GameObject:
   - component: {fileID: 1868791639}
   - component: {fileID: 1868791644}
   - component: {fileID: 1868791643}
-  - component: {fileID: 1868791642}
   - component: {fileID: 1868791641}
   - component: {fileID: 1868791640}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -82239,27 +81486,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1868791642
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1868791638}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1868791643
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -82324,7 +81550,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 316618815}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -84827,7 +84053,7 @@ GameObject:
   - component: {fileID: 1926855125}
   - component: {fileID: 1926855124}
   - component: {fileID: 1926855123}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84960,7 +84186,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1117735192}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -86068,7 +85294,7 @@ GameObject:
   - component: {fileID: 1959064128}
   - component: {fileID: 1959064127}
   - component: {fileID: 1959064126}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86201,7 +85427,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1354117221}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -86377,11 +85603,10 @@ GameObject:
   - component: {fileID: 1969655405}
   - component: {fileID: 1969655410}
   - component: {fileID: 1969655409}
-  - component: {fileID: 1969655408}
   - component: {fileID: 1969655407}
   - component: {fileID: 1969655406}
-  m_Layer: 10
-  m_Name: Ground (27)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -86449,27 +85674,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1969655408
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1969655404}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1969655409
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -86534,7 +85738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1799127505}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -86712,7 +85916,7 @@ GameObject:
   - component: {fileID: 1974530421}
   - component: {fileID: 1974530420}
   - component: {fileID: 1974530419}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -86845,7 +86049,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1338726957}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -86866,10 +86070,9 @@ GameObject:
   - component: {fileID: 1977771818}
   - component: {fileID: 1977771823}
   - component: {fileID: 1977771822}
-  - component: {fileID: 1977771821}
   - component: {fileID: 1977771820}
   - component: {fileID: 1977771819}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -86938,27 +86141,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1977771821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1977771817}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1977771822
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -87023,7 +86205,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 2084300725}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -87199,11 +86381,10 @@ GameObject:
   - component: {fileID: 1987094782}
   - component: {fileID: 1987094787}
   - component: {fileID: 1987094786}
-  - component: {fileID: 1987094785}
   - component: {fileID: 1987094784}
   - component: {fileID: 1987094783}
-  m_Layer: 10
-  m_Name: Ground (15)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -87271,27 +86452,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &1987094785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1987094781}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &1987094786
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -87356,7 +86516,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1398907661}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -87997,10 +87157,9 @@ GameObject:
   - component: {fileID: 2000371906}
   - component: {fileID: 2000371911}
   - component: {fileID: 2000371910}
-  - component: {fileID: 2000371909}
   - component: {fileID: 2000371908}
   - component: {fileID: 2000371907}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -88069,27 +87228,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &2000371909
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2000371905}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &2000371910
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -88154,7 +87292,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 796652421}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -88950,11 +88088,10 @@ GameObject:
   - component: {fileID: 2026796389}
   - component: {fileID: 2026796394}
   - component: {fileID: 2026796393}
-  - component: {fileID: 2026796392}
   - component: {fileID: 2026796391}
   - component: {fileID: 2026796390}
-  m_Layer: 10
-  m_Name: Ground (24)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -89022,27 +88159,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &2026796392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2026796388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &2026796393
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -89107,7 +88223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 41925587}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -90609,7 +89725,7 @@ GameObject:
   - component: {fileID: 2063711928}
   - component: {fileID: 2063711927}
   - component: {fileID: 2063711926}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90742,7 +89858,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1397267429}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -91228,11 +90344,10 @@ GameObject:
   - component: {fileID: 2084300725}
   - component: {fileID: 2084300730}
   - component: {fileID: 2084300729}
-  - component: {fileID: 2084300728}
   - component: {fileID: 2084300727}
   - component: {fileID: 2084300726}
-  m_Layer: 10
-  m_Name: Ground (18)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -91300,27 +90415,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &2084300728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2084300724}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &2084300729
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -91385,7 +90479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 1977771818}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -91802,7 +90896,7 @@ GameObject:
   - component: {fileID: 2094256492}
   m_Layer: 0
   m_Name: Circle
-  m_TagString: StrongBullet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91867,12 +90961,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2094256489}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.07, y: 0, z: 0}
+  m_LocalPosition: {x: 5.05, y: -0.06, z: 0}
   m_LocalScale: {x: 0.34, y: 0.34, z: 0.34}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &2094256492
 CircleCollider2D:
@@ -92521,10 +91615,9 @@ GameObject:
   - component: {fileID: 2121390412}
   - component: {fileID: 2121390417}
   - component: {fileID: 2121390416}
-  - component: {fileID: 2121390415}
   - component: {fileID: 2121390414}
   - component: {fileID: 2121390413}
-  m_Layer: 10
+  m_Layer: 12
   m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -92593,27 +91686,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &2121390415
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2121390411}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &2121390416
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -92678,7 +91750,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 115842167}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -92699,11 +91771,10 @@ GameObject:
   - component: {fileID: 2122812520}
   - component: {fileID: 2122812525}
   - component: {fileID: 2122812524}
-  - component: {fileID: 2122812523}
   - component: {fileID: 2122812522}
   - component: {fileID: 2122812521}
-  m_Layer: 10
-  m_Name: Ground (29)
+  m_Layer: 12
+  m_Name: Limit
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -92771,27 +91842,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!114 &2122812523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2122812519}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cc217a6169c52f42bf242b0be81d6e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _colorState: 1
-  Black:
-    serializedVersion: 2
-    m_Bits: 1024
-  White:
-    serializedVersion: 2
-    m_Bits: 2048
-  BlackColor: {r: 0, g: 0, b: 0, a: 1}
-  WhiteColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!212 &2122812524
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -92856,7 +91906,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba7875078c80f5d46a7ffc0a924e43cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _teleportPoint: {fileID: 0}
+  _teleportPoint: {fileID: 434135372}
   _bullets:
   - {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
   - {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
@@ -94115,15 +93165,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1919568721762956683, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 1919568721762956683, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.72
+      value: 20.07
       objectReference: {fileID: 0}
     - target: {fileID: 1919568721762956683, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.39
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 1919568721762956683, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -94172,15 +93222,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7762176906302329443, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7762176906302329443, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.043
+      value: 19.9
       objectReference: {fileID: 0}
     - target: {fileID: 7762176906302329443, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.578
+      value: -0.59
       objectReference: {fileID: 0}
     - target: {fileID: 7762176906302329443, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
       propertyPath: m_LocalPosition.z
