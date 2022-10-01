@@ -24,7 +24,7 @@ public class Teleport : MonoBehaviour
             Vector3 forceDirection = gameObject.transform.position.normalized - _teleportPoint.transform.position.normalized;
             Vector3 force = _normalBulletPower * forceDirection;
             a.layer = collision.gameObject.layer;
-            a.tag = "Untagged";
+            a.tag = "Teleported";
             Rigidbody2D rb = a.gameObject.GetComponent<Rigidbody2D>();
             rb.AddForce(force, ForceMode2D.Impulse);
             _bullets[0].gameObject.transform.position = _teleportPoint.position;
@@ -36,13 +36,16 @@ public class Teleport : MonoBehaviour
             Vector3 forceDirection = gameObject.transform.position.normalized - _teleportPoint.transform.position.normalized;
             Vector3 force = _strongBulletPower * forceDirection;
             a.layer = collision.gameObject.layer;
-            a.tag = "Untagged";
+            a.tag = "Teleported";
             Rigidbody2D rb = a.gameObject.GetComponent<Rigidbody2D>();
             rb.AddForce(force, ForceMode2D.Impulse);
             _bullets[0].gameObject.transform.position = _teleportPoint.position;
             Destroy(collision.gameObject);
         }
-
+        if (collision.CompareTag("Teleported"))
+        {
+            Destroy(collision.gameObject);
+        }
     }
 
 }

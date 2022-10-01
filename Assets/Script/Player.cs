@@ -23,19 +23,19 @@ public class Player : MonoBehaviour
     [SerializeField] AudioClip _audioClip;
     [SerializeField] List<string> _keyName = new();
 
-    [SerializeField] List<Ground> _wall;
+    [SerializeField] List<GameObject> _wall;
     [SerializeField] float _time = 3;
     [SerializeField] float _timeDelta;
 
     private void Start()
     {
-        _wall = GameObject.FindObjectsOfType<Ground>().ToList();
-        //_wall = Resources.FindObjectsOfTypeAll(typeof(Ground)).ToList();
+        _wall = GameObject.FindGameObjectsWithTag("Ground").ToList();
         _audioSource = GetComponent<AudioSource>();
         _rb = GetComponent<Rigidbody2D>();
     }
     private void Update()
     {
+
         if (Input.anyKeyDown)
         {
             foreach (KeyCode code in System.Enum.GetValues(typeof(KeyCode)))
@@ -49,6 +49,8 @@ public class Player : MonoBehaviour
             }
         }
         ChangeSprite();
+
+        //éûä‘Ç≈íeÇ™ï‚è[Ç≥ÇÍÇÈ
         _timeDelta += Time.deltaTime;
 
         if (_time < _timeDelta)
@@ -64,16 +66,16 @@ public class Player : MonoBehaviour
             }
             _timeDelta = 0;
         }
+        //íeÇÃè„å¿
         if (_magazineList.Count > 5)
         {
             _magazineList.RemoveRange(5, _magazineList.Count - 5);
         }
-
+        //íeî≠éÀ
         if (Input.GetKeyDown(KeyCode.UpArrow) || Input.GetButtonDown(_keyName[0]))
         {
             Shot(_transformList[0], _magazineList[0]);
         }
-
         if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetButtonDown(_keyName[1]))
         {
             Shot(_transformList[1], _magazineList[0]);
@@ -96,11 +98,19 @@ public class Player : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("StrongBullet"))
+        if (collision.gameObject.CompareTag("StrongBulletItem"))
         {
             _magazineList.Remove(_magazineList[4]);
             _magazineList.Insert(0, _bulletStrong);
         }
+        if (collision.gameObject.CompareTag("StrongBullet"))
+        {
+
+        }
+        if (collision.gameObject.CompareTag("Bullet"))
+        {
+        }
+
     }
     /// <summary>
     /// Ç±Ç¢Ç¬ÇÕÇ¢Ç¬Ç©ÉAÉbÉvÉfÅ[ÉgÇ©ÇÁî≤ÇØÇÈ
@@ -127,11 +137,14 @@ public class Player : MonoBehaviour
     }
     void Shot(Transform dir, GameObject bullet)
     {
+        GameObject pos = _wall.OrderBy(x =>
+                 Vector2.Distance(gameObject.transform.position, x.transform.position)
+                 ).FirstOrDefault();
         if (bullet == _bulletNormal)
         {
             _magazineList.Remove(_magazineList[0]);
             _magazineList.Add(null);
-            GameObject a = Instantiate(_bulletNormal, gameObject.transform.position, _bulletNormal.transform.rotation);
+            GameObject a = Instantiate(_bulletNormal, pos.transform.position + new Vector3(0, 0, -1), _bulletNormal.transform.rotation);
             a.layer = 8;
             Vector3 forceDirection = dir.position - gameObject.transform.position;
             Vector3 force = _shotPowerNormal * forceDirection;
@@ -144,7 +157,7 @@ public class Player : MonoBehaviour
         {
             _magazineList.Remove(_magazineList[0]);
             _magazineList.Add(null);
-            GameObject a = Instantiate(_bulletStrong, gameObject.transform.position, _bulletStrong.transform.rotation);
+            GameObject a = Instantiate(_bulletStrong, pos.transform.position + new Vector3(0, 0, -1), _bulletStrong.transform.rotation);
             a.layer = 8;
             Vector3 forceDirection = dir.position - gameObject.transform.position;
             Vector3 force = _shotPowerStrong * forceDirection;
