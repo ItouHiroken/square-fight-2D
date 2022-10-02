@@ -357,7 +357,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -433,7 +433,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -463,8 +463,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &13020997
 GameObject:
   m_ObjectHideFlags: 0
@@ -1753,7 +1753,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1829,7 +1829,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1859,8 +1859,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &42024920
 GameObject:
   m_ObjectHideFlags: 0
@@ -3614,7 +3614,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3690,7 +3690,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -3720,8 +3720,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &105566036
 GameObject:
   m_ObjectHideFlags: 0
@@ -4235,7 +4235,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4311,7 +4311,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -4341,8 +4341,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &120751285
 GameObject:
   m_ObjectHideFlags: 0
@@ -5428,6 +5428,90 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!1 &146565926
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 146565927}
+  - component: {fileID: 146565928}
+  m_Layer: 7
+  m_Name: magazine4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &146565927
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146565926}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.131, y: -0.211, z: 0}
+  m_LocalScale: {x: 0.16, y: 0.16, z: 0.16}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 196978875}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &146565928
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146565926}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2002
+  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &146999704
 GameObject:
   m_ObjectHideFlags: 0
@@ -6327,7 +6411,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0.39899278, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.39899278, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6357,8 +6441,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &173606918
 GameObject:
   m_ObjectHideFlags: 0
@@ -7599,6 +7683,56 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!1 &196978874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 196978875}
+  - component: {fileID: 196978876}
+  m_Layer: 7
+  m_Name: Magazine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &196978875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196978874}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1613961922}
+  - {fileID: 260481418}
+  - {fileID: 1529608374}
+  - {fileID: 146565927}
+  - {fileID: 718843978}
+  m_Father: {fileID: 1638312937}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &196978876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 196978874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04ded6f4a2a9d544899ebf2019e834b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _kaitenSpeed: 1
 --- !u!1 &197476473
 GameObject:
   m_ObjectHideFlags: 0
@@ -8267,7 +8401,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1, y: 0}
+  m_Offset: {x: -1.1, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -8343,7 +8477,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.95282125, g: 0, b: 1, a: 1}
+  m_Color: {r: 0.95282125, g: 0, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -8373,8 +8507,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &209672719
 GameObject:
   m_ObjectHideFlags: 0
@@ -9170,7 +9304,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &227014226
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9238,7 +9372,7 @@ Transform:
   - {fileID: 1655646033}
   - {fileID: 453594136}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &227014229
 Rigidbody2D:
@@ -9623,7 +9757,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -9699,7 +9833,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -9729,8 +9863,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &237412991
 GameObject:
   m_ObjectHideFlags: 0
@@ -11047,14 +11181,98 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 254693495}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.707753, y: -0.857459, z: -0.0015201569}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1113072671}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &260481417
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 260481418}
+  - component: {fileID: 260481419}
+  m_Layer: 7
+  m_Name: magazine2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &260481418
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260481417}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.241, y: 0.059, z: 0}
+  m_LocalScale: {x: 0.16, y: 0.16, z: 0.16}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 196978875}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &260481419
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 260481417}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2002
+  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &261283808
 GameObject:
   m_ObjectHideFlags: 0
@@ -11520,6 +11738,41 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!1 &265754408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 265754409}
+  m_Layer: 7
+  m_Name: Aim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &265754409
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265754408}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 482161060}
+  - {fileID: 736365985}
+  - {fileID: 1308267742}
+  - {fileID: 904357299}
+  m_Father: {fileID: 1638312937}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &266416001
 GameObject:
   m_ObjectHideFlags: 0
@@ -12808,7 +13061,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -12884,7 +13137,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -12914,8 +13167,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &302659602
 GameObject:
   m_ObjectHideFlags: 0
@@ -13429,7 +13682,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -13505,7 +13758,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -13535,8 +13788,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &317134470
 GameObject:
   m_ObjectHideFlags: 0
@@ -14281,7 +14534,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0.39899278, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.39899278, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -14311,8 +14564,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &342834048
 GameObject:
   m_ObjectHideFlags: 0
@@ -15136,7 +15389,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1, y: 0}
+  m_Offset: {x: -1.1, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -15212,7 +15465,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.95282125, g: 0, b: 1, a: 1}
+  m_Color: {r: 0.95282125, g: 0, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -15242,8 +15495,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &367987435
 GameObject:
   m_ObjectHideFlags: 0
@@ -16198,7 +16451,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 388542085}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15, y: -26, z: -3}
+  m_LocalPosition: {x: -11.292247, y: -25.85, z: 6.99848}
   m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -16231,8 +16484,8 @@ Transform:
   - {fileID: 1969655405}
   - {fileID: 1691302475}
   - {fileID: 2122812520}
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_Father: {fileID: 634264375}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &389102554
 GameObject:
@@ -16877,8 +17130,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 398099804}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.707753, y: -0.857459, z: 9.99848}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -17375,8 +17628,8 @@ Transform:
   - {fileID: 808310657}
   - {fileID: 1373847374}
   - {fileID: 1553496316}
-  m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_Father: {fileID: 634264375}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &401501161
 GameObject:
@@ -17502,7 +17755,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0.39899278, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.39899278, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -17532,8 +17785,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &404131740
 GameObject:
   m_ObjectHideFlags: 0
@@ -18853,7 +19106,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1, y: 0}
+  m_Offset: {x: -1.1, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -18929,7 +19182,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.95282125, g: 0, b: 1, a: 1}
+  m_Color: {r: 0.95282125, g: 0, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -18959,8 +19212,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &434135371
 GameObject:
   m_ObjectHideFlags: 0
@@ -19009,7 +19262,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -19085,7 +19338,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -19115,8 +19368,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &440235195
 GameObject:
   m_ObjectHideFlags: 0
@@ -19990,7 +20243,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -20066,7 +20319,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -20096,8 +20349,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &460048969
 GameObject:
   m_ObjectHideFlags: 0
@@ -20301,7 +20554,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -20377,7 +20630,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -20407,8 +20660,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &464034721
 GameObject:
   m_ObjectHideFlags: 0
@@ -21494,6 +21747,37 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!1 &482161059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 482161060}
+  m_Layer: 7
+  m_Name: UpAim
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &482161060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 482161059}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 265754409}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &485401465
 GameObject:
   m_ObjectHideFlags: 0
@@ -22627,7 +22911,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -22703,7 +22987,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -22733,8 +23017,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -22811,12 +23095,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.707753, y: -0.857459, z: -0.0015201569}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1113072671}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &522733177
@@ -22867,7 +23151,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -22943,7 +23227,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -22973,8 +23257,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &523866616
 GameObject:
   m_ObjectHideFlags: 0
@@ -24108,7 +24392,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -24184,7 +24468,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -24214,8 +24498,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &558693421
 GameObject:
   m_ObjectHideFlags: 0
@@ -25194,7 +25478,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1, y: 0}
+  m_Offset: {x: -1.1, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -25270,7 +25554,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.95282125, g: 0, b: 1, a: 1}
+  m_Color: {r: 0.95282125, g: 0, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -25300,8 +25584,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &579510658
 GameObject:
   m_ObjectHideFlags: 0
@@ -25505,7 +25789,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -25581,7 +25865,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -25611,8 +25895,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &593520995
 GameObject:
   m_ObjectHideFlags: 0
@@ -25971,7 +26255,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1, y: 0}
+  m_Offset: {x: -1.1, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -26047,7 +26331,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.95282125, g: 0, b: 1, a: 1}
+  m_Color: {r: 0.95282125, g: 0, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -26077,8 +26361,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &601545798
 GameObject:
   m_ObjectHideFlags: 0
@@ -26103,7 +26387,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 601545798}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15, y: 6, z: -3}
+  m_LocalPosition: {x: -10.3, y: 5.142541, z: 6.99848}
   m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -26124,8 +26408,8 @@ Transform:
   - {fileID: 637881231}
   - {fileID: 1215306734}
   - {fileID: 1926855122}
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 634264375}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &601830583
 GameObject:
@@ -27832,6 +28116,68 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!1 &634264373
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 634264375}
+  - component: {fileID: 634264374}
+  m_Layer: 0
+  m_Name: =======MAP=======
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &634264374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634264373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcdf6c616326c4aaeb610b335fbb67fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useDefaultBackgroundColor: 0
+  backgroundColor:
+    serializedVersion: 2
+    rgba: 4294924032
+  useDefaultTextColor: 0
+  textColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  fontSize: 12
+  fontStyle: 1
+  alignment: 4
+  textDropShadow: 0
+--- !u!4 &634264375
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 634264373}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.707753, y: 0.857459, z: -9.99848}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1543267739}
+  - {fileID: 601545799}
+  - {fileID: 1452181649}
+  - {fileID: 388542086}
+  - {fileID: 398099805}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &636067247
 GameObject:
   m_ObjectHideFlags: 0
@@ -28345,7 +28691,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1, y: 0}
+  m_Offset: {x: -1.1, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -28421,7 +28767,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.95282125, g: 0, b: 1, a: 1}
+  m_Color: {r: 0.95282125, g: 0, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -28451,8 +28797,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &653692664
 GameObject:
   m_ObjectHideFlags: 0
@@ -28887,7 +29233,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0.39899278, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.39899278, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -28917,8 +29263,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &669539011
 GameObject:
   m_ObjectHideFlags: 0
@@ -28967,7 +29313,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -29043,7 +29389,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -29073,8 +29419,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &671741568
 GameObject:
   m_ObjectHideFlags: 0
@@ -29433,7 +29779,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -29509,7 +29855,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -29539,8 +29885,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &686500657
 GameObject:
   m_ObjectHideFlags: 0
@@ -30710,6 +31056,90 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!1 &718843976
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 718843978}
+  - component: {fileID: 718843977}
+  m_Layer: 7
+  m_Name: magazine5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &718843977
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718843976}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2002
+  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &718843978
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718843976}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.241, y: 0.064, z: 0}
+  m_LocalScale: {x: 0.16, y: 0.16, z: 0.16}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 196978875}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &719028173
 GameObject:
   m_ObjectHideFlags: 0
@@ -30865,6 +31295,37 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!1 &736365984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 736365985}
+  m_Layer: 7
+  m_Name: RightAim
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &736365985
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 736365984}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 265754409}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &742584421
 GameObject:
   m_ObjectHideFlags: 0
@@ -30989,7 +31450,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0.39899278, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.39899278, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -31019,8 +31480,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &745837745
 GameObject:
   m_ObjectHideFlags: 0
@@ -31252,12 +31713,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 750832355}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.707753, y: -0.857459, z: -0.0015201569}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1113072671}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &754692362
@@ -31694,7 +32155,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0.39899278, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.39899278, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -31724,8 +32185,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &759578585
 GameObject:
   m_ObjectHideFlags: 0
@@ -33090,7 +33551,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0.39899278, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.39899278, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -33120,8 +33581,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &778762167
 GameObject:
   m_ObjectHideFlags: 0
@@ -33480,7 +33941,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1, y: 0}
+  m_Offset: {x: -1.1, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -33556,7 +34017,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.95282125, g: 0, b: 1, a: 1}
+  m_Color: {r: 0.95282125, g: 0, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -33586,8 +34047,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &788652654
 GameObject:
   m_ObjectHideFlags: 0
@@ -33791,7 +34252,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -33867,7 +34328,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -33897,8 +34358,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &804809389
 GameObject:
   m_ObjectHideFlags: 0
@@ -34023,7 +34484,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0.39899278, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.39899278, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -34053,8 +34514,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &808310656
 GameObject:
   m_ObjectHideFlags: 0
@@ -35343,7 +35804,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -35419,7 +35880,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -35449,8 +35910,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &826928480
 GameObject:
   m_ObjectHideFlags: 0
@@ -35527,12 +35988,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 826928480}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.707753, y: -0.857459, z: -0.0015201569}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1113072671}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &827330722
@@ -35893,7 +36354,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -35969,7 +36430,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -35999,8 +36460,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &849800140
 GameObject:
   m_ObjectHideFlags: 0
@@ -37373,7 +37834,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -37449,7 +37910,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -37479,8 +37940,39 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
+--- !u!1 &904357298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 904357299}
+  m_Layer: 7
+  m_Name: LeftAim
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &904357299
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904357298}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 265754409}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &906600154
 GameObject:
   m_ObjectHideFlags: 0
@@ -40009,7 +40501,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1, y: 0}
+  m_Offset: {x: -1.1, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -40085,7 +40577,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.95282125, g: 0, b: 1, a: 1}
+  m_Color: {r: 0.95282125, g: 0, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -40115,8 +40607,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &964576308
 GameObject:
   m_ObjectHideFlags: 0
@@ -40320,7 +40812,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -40396,7 +40888,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -40426,8 +40918,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &973914443
 GameObject:
   m_ObjectHideFlags: 0
@@ -42491,7 +42983,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -42567,7 +43059,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -42597,8 +43089,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1004707189
 GameObject:
   m_ObjectHideFlags: 0
@@ -42647,7 +43139,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -42723,7 +43215,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -42753,8 +43245,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1005008237
 GameObject:
   m_ObjectHideFlags: 0
@@ -43499,7 +43991,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0.39899278, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.39899278, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -43529,8 +44021,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1041485916
 GameObject:
   m_ObjectHideFlags: 0
@@ -44509,7 +45001,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -44585,7 +45077,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -44615,8 +45107,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1072355856
 GameObject:
   m_ObjectHideFlags: 0
@@ -45285,7 +45777,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -45361,7 +45853,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -45391,8 +45883,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1091774395
 GameObject:
   m_ObjectHideFlags: 0
@@ -46836,7 +47328,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -46912,7 +47404,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -46942,8 +47434,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1113072669
 GameObject:
   m_ObjectHideFlags: 0
@@ -46955,7 +47447,7 @@ GameObject:
   - component: {fileID: 1113072671}
   - component: {fileID: 1113072670}
   m_Layer: 0
-  m_Name: Camera
+  m_Name: ========Camera========
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -46997,9 +47489,14 @@ Transform:
   m_LocalPosition: {x: -3.707753, y: 0.857459, z: -9.99848}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 519420032}
+  - {fileID: 826928483}
+  - {fileID: 254693498}
+  - {fileID: 750832358}
+  - {fileID: 1631526199}
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1117735191
 GameObject:
@@ -47125,7 +47622,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0.39899278, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.39899278, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -47155,8 +47652,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1117786027
 GameObject:
   m_ObjectHideFlags: 0
@@ -48600,7 +49097,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -48676,7 +49173,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -48706,8 +49203,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1135626882
 GameObject:
   m_ObjectHideFlags: 0
@@ -49297,7 +49794,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0.39899278, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.39899278, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -49327,8 +49824,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1149644527
 GameObject:
   m_ObjectHideFlags: 0
@@ -51237,7 +51734,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1, y: 0}
+  m_Offset: {x: -1.1, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -51313,7 +51810,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.95282125, g: 0, b: 1, a: 1}
+  m_Color: {r: 0.95282125, g: 0, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -51343,8 +51840,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1197680916
 GameObject:
   m_ObjectHideFlags: 0
@@ -51858,7 +52355,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1, y: 0}
+  m_Offset: {x: -1.1, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -51934,7 +52431,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.95282125, g: 0, b: 1, a: 1}
+  m_Color: {r: 0.95282125, g: 0, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -51964,8 +52461,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1217444658
 GameObject:
   m_ObjectHideFlags: 0
@@ -52324,7 +52821,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -52400,7 +52897,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -52430,8 +52927,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1230921370
 GameObject:
   m_ObjectHideFlags: 0
@@ -52635,7 +53132,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -52711,7 +53208,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -52741,8 +53238,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1234664886
 GameObject:
   m_ObjectHideFlags: 0
@@ -54572,7 +55069,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0.39899278, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.39899278, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -54602,8 +55099,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1279187822
 GameObject:
   m_ObjectHideFlags: 0
@@ -55689,6 +56186,154 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!1001 &1304694772
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1919568721762956683, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919568721762956683, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919568721762956683, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919568721762956683, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919568721762956683, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919568721762956683, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919568721762956683, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919568721762956683, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919568721762956683, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919568721762956683, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919568721762956683, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919568721762956688, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_Name
+      value: Bullet (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919568721762956692, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919568721762956692, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919568721762956692, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919568721762956695, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_Parameters.colorGradient.atime0
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919568721762956695, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_Parameters.colorGradient.atime1
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919568721762956695, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_Parameters.colorGradient.ctime0
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919568721762956695, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_Parameters.colorGradient.ctime1
+      value: 47031
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919568721762956695, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_Parameters.colorGradient.ctime2
+      value: 65535
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919568721762956695, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919568721762956695, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919568721762956695, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_Parameters.colorGradient.key0.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919568721762956695, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919568721762956695, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919568721762956695, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1919568721762956695, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+      propertyPath: m_Parameters.colorGradient.m_NumColorKeys
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
+--- !u!1 &1308267741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1308267742}
+  m_Layer: 7
+  m_Name: DownAIm
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1308267742
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308267741}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 265754409}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1311057281
 GameObject:
   m_ObjectHideFlags: 0
@@ -56357,7 +57002,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -56433,7 +57078,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -56463,8 +57108,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1338726956
 GameObject:
   m_ObjectHideFlags: 0
@@ -56513,7 +57158,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1, y: 0}
+  m_Offset: {x: -1.1, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -56589,7 +57234,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.95282125, g: 0, b: 1, a: 1}
+  m_Color: {r: 0.95282125, g: 0, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -56619,8 +57264,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1339814212
 GameObject:
   m_ObjectHideFlags: 0
@@ -57134,7 +57779,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -57210,7 +57855,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -57240,8 +57885,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1354117220
 GameObject:
   m_ObjectHideFlags: 0
@@ -57366,7 +58011,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0.39899278, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.39899278, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -57396,8 +58041,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1360159023
 GameObject:
   m_ObjectHideFlags: 0
@@ -58841,7 +59486,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -58917,7 +59562,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -58947,8 +59592,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1397120642
 GameObject:
   m_ObjectHideFlags: 0
@@ -59152,7 +59797,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1, y: 0}
+  m_Offset: {x: -1.1, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -59228,7 +59873,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.95282125, g: 0, b: 1, a: 1}
+  m_Color: {r: 0.95282125, g: 0, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -59258,8 +59903,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1398907660
 GameObject:
   m_ObjectHideFlags: 0
@@ -59308,7 +59953,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -59384,7 +60029,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -59414,8 +60059,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1403290743
 GameObject:
   m_ObjectHideFlags: 0
@@ -59464,7 +60109,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -59540,7 +60185,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -59570,8 +60215,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1407726220
 GameObject:
   m_ObjectHideFlags: 0
@@ -60891,7 +61536,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -60967,7 +61612,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -60997,8 +61642,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1441400834
 GameObject:
   m_ObjectHideFlags: 0
@@ -61333,7 +61978,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1452181648}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15, y: -8, z: -3}
+  m_LocalPosition: {x: -11.292247, y: -9.86, z: 6.99848}
   m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -61366,8 +62011,8 @@ Transform:
   - {fileID: 1799127505}
   - {fileID: 1534156671}
   - {fileID: 434135372}
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_Father: {fileID: 634264375}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1458535613
 GameObject:
@@ -62967,7 +63612,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -63043,7 +63688,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -63073,8 +63718,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1493249220
 GameObject:
   m_ObjectHideFlags: 0
@@ -63433,7 +64078,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1, y: 0}
+  m_Offset: {x: -1.1, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -63509,7 +64154,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.95282125, g: 0, b: 1, a: 1}
+  m_Color: {r: 0.95282125, g: 0, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -63539,8 +64184,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1498957560
 GameObject:
   m_ObjectHideFlags: 0
@@ -64471,6 +65116,90 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!1 &1529608373
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1529608374}
+  - component: {fileID: 1529608375}
+  m_Layer: 7
+  m_Name: magazine3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1529608374
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529608373}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.132, y: -0.209, z: 0}
+  m_LocalScale: {x: 0.16, y: 0.16, z: 0.16}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 196978875}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1529608375
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529608373}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2002
+  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1531159340
 GameObject:
   m_ObjectHideFlags: 0
@@ -64674,7 +65403,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -64750,7 +65479,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -64780,8 +65509,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1537417440
 GameObject:
   m_ObjectHideFlags: 0
@@ -65271,7 +66000,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1543267738}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 15, y: 6, z: -3}
+  m_LocalPosition: {x: 17.7, y: 5.142541, z: 6.99848}
   m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -65292,8 +66021,8 @@ Transform:
   - {fileID: 804809390}
   - {fileID: 401501162}
   - {fileID: 1117735192}
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 634264375}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1543776691
 GameObject:
@@ -65343,7 +66072,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -65419,7 +66148,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -65449,8 +66178,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1547827789
 GameObject:
   m_ObjectHideFlags: 0
@@ -65499,7 +66228,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -65575,7 +66304,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -65605,8 +66334,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1548535590
 GameObject:
   m_ObjectHideFlags: 0
@@ -66816,7 +67545,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0.39899278, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.39899278, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -66846,8 +67575,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1589950441
 GameObject:
   m_ObjectHideFlags: 0
@@ -68398,6 +69127,90 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!1 &1613961921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1613961922}
+  - component: {fileID: 1613961923}
+  m_Layer: 7
+  m_Name: magazine1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1613961922
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613961921}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.246, z: 0}
+  m_LocalScale: {x: 0.16, y: 0.16, z: 0.16}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 196978875}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1613961923
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613961921}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2002
+  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1615764090
 GameObject:
   m_ObjectHideFlags: 0
@@ -68911,7 +69724,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1, y: 0}
+  m_Offset: {x: -1.1, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -68987,7 +69800,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.95282125, g: 0, b: 1, a: 1}
+  m_Color: {r: 0.95282125, g: 0, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -69017,8 +69830,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1624800550
 GameObject:
   m_ObjectHideFlags: 0
@@ -69842,7 +70655,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -69918,7 +70731,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -69948,8 +70761,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1631041798
 GameObject:
   m_ObjectHideFlags: 0
@@ -70181,12 +70994,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1631526196}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.707753, y: -0.857459, z: -0.0015201569}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1113072671}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1631654056
@@ -70654,6 +71467,276 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!1 &1638312930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1638312937}
+  - component: {fileID: 1638312936}
+  - component: {fileID: 1638312934}
+  - component: {fileID: 1638312933}
+  - component: {fileID: 1638312932}
+  - component: {fileID: 1638312931}
+  m_Layer: 7
+  m_Name: Enemy
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!58 &1638312931
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638312930}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
+--- !u!82 &1638312932
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638312930}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!50 &1638312933
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638312930}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &1638312934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638312930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 276e9928eb71dcf4cbf44d0d9c4e32d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _whiteLayer:
+    serializedVersion: 2
+    m_Bits: 128
+  _red: {r: 1, g: 0, b: 0, a: 1}
+  _black: {r: 0, g: 0, b: 0, a: 1}
+  _grey: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  _transformList:
+  - {fileID: 482161060}
+  - {fileID: 736365985}
+  - {fileID: 1308267742}
+  - {fileID: 904357299}
+  _spriteRendererList:
+  - {fileID: 1613961923}
+  - {fileID: 260481419}
+  - {fileID: 1529608375}
+  - {fileID: 146565928}
+  - {fileID: 718843977}
+  _magazineList:
+  - {fileID: 4611366952628561612, guid: 320ddb4b015e5494188ed13f491218bb, type: 3}
+  - {fileID: 4611366952628561612, guid: 320ddb4b015e5494188ed13f491218bb, type: 3}
+  - {fileID: 4611366952628561612, guid: 320ddb4b015e5494188ed13f491218bb, type: 3}
+  - {fileID: 4611366952628561612, guid: 320ddb4b015e5494188ed13f491218bb, type: 3}
+  - {fileID: 4611366952628561612, guid: 320ddb4b015e5494188ed13f491218bb, type: 3}
+  _bulletNormal: {fileID: 4611366952628561612, guid: 320ddb4b015e5494188ed13f491218bb, type: 3}
+  _bulletStrong: {fileID: 7762176906302329464, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
+  _audioSource: {fileID: 1638312932}
+  _audioClip: {fileID: 8300000, guid: 77cd02961d472ae4ab2a1a3e5e2dfebd, type: 3}
+  _keyName:
+  - up
+  - left
+  - down
+  - right
+  _wall: []
+  _time: 3
+  _timeDelta: 0
+--- !u!212 &1638312936
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638312930}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 95
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1638312937
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638312930}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -17, y: 0, z: 0}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 265754409}
+  - {fileID: 196978875}
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1638433993
 GameObject:
   m_ObjectHideFlags: 0
@@ -73527,7 +74610,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -73603,7 +74686,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -73633,8 +74716,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1699012439
 GameObject:
   m_ObjectHideFlags: 0
@@ -73838,7 +74921,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -73914,7 +74997,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -73944,8 +75027,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1701096889
 GameObject:
   m_ObjectHideFlags: 0
@@ -74459,7 +75542,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -74535,7 +75618,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -74565,8 +75648,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1722029142
 GameObject:
   m_ObjectHideFlags: 0
@@ -74615,7 +75698,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -74691,7 +75774,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -74721,8 +75804,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1723973208
 GameObject:
   m_ObjectHideFlags: 0
@@ -75236,7 +76319,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -75312,7 +76395,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -75342,8 +76425,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1732954614
 GameObject:
   m_ObjectHideFlags: 0
@@ -75392,7 +76475,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -75468,7 +76551,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -75498,8 +76581,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1741216995
 GameObject:
   m_ObjectHideFlags: 0
@@ -76544,7 +77627,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1762476908
 MonoBehaviour:
@@ -77939,7 +79022,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1, y: 0}
+  m_Offset: {x: -1.1, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -78015,7 +79098,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.95282125, g: 0, b: 1, a: 1}
+  m_Color: {r: 0.95282125, g: 0, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -78045,8 +79128,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1793648656
 GameObject:
   m_ObjectHideFlags: 0
@@ -78405,7 +79488,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -78481,7 +79564,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -78511,8 +79594,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1801645380
 GameObject:
   m_ObjectHideFlags: 0
@@ -78637,7 +79720,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0.39899278, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.39899278, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -78667,8 +79750,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1804137191
 GameObject:
   m_ObjectHideFlags: 0
@@ -79027,7 +80110,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -79103,7 +80186,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -79133,8 +80216,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1812108883
 GameObject:
   m_ObjectHideFlags: 0
@@ -80578,7 +81661,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -80654,7 +81737,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -80684,8 +81767,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1849718949
 GameObject:
   m_ObjectHideFlags: 0
@@ -81509,7 +82592,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -81585,7 +82668,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -81615,8 +82698,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1871639548
 GameObject:
   m_ObjectHideFlags: 0
@@ -84145,7 +85228,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1, y: 0}
+  m_Offset: {x: -1.1, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -84221,7 +85304,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.95282125, g: 0, b: 1, a: 1}
+  m_Color: {r: 0.95282125, g: 0, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -84251,8 +85334,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1937650876
 GameObject:
   m_ObjectHideFlags: 0
@@ -85386,7 +86469,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1, y: 0}
+  m_Offset: {x: -1.1, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -85462,7 +86545,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.95282125, g: 0, b: 1, a: 1}
+  m_Color: {r: 0.95282125, g: 0, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -85492,8 +86575,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1963441469
 GameObject:
   m_ObjectHideFlags: 0
@@ -85697,7 +86780,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -85773,7 +86856,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -85803,8 +86886,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1972072734
 GameObject:
   m_ObjectHideFlags: 0
@@ -86084,7 +87167,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0.39899278, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.39899278, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -86114,8 +87197,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1977771817
 GameObject:
   m_ObjectHideFlags: 0
@@ -86164,7 +87247,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -86240,7 +87323,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -86270,8 +87353,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1985981298
 GameObject:
   m_ObjectHideFlags: 0
@@ -86475,7 +87558,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -86551,7 +87634,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -86581,8 +87664,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &1987953310
 GameObject:
   m_ObjectHideFlags: 0
@@ -87251,7 +88334,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -87327,7 +88410,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -87357,8 +88440,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &2006404607
 GameObject:
   m_ObjectHideFlags: 0
@@ -88182,7 +89265,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -88258,7 +89341,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -88288,8 +89371,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &2029634803
 GameObject:
   m_ObjectHideFlags: 0
@@ -89893,7 +90976,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 0.39899278, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.39899278, b: 1, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -89923,8 +91006,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &2070799004
 GameObject:
   m_ObjectHideFlags: 0
@@ -90438,7 +91521,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -90514,7 +91597,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -90544,8 +91627,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &2085803671
 GameObject:
   m_ObjectHideFlags: 0
@@ -90953,7 +92036,7 @@ GameObject:
   - component: {fileID: 2094256492}
   m_Layer: 0
   m_Name: Circle
-  m_TagString: Untagged
+  m_TagString: StrongBulletItem
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91018,12 +92101,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2094256489}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.05, y: -0.06, z: 0}
+  m_LocalPosition: {x: 3, y: -1, z: 0}
   m_LocalScale: {x: 0.34, y: 0.34, z: 0.34}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &2094256492
 CircleCollider2D:
@@ -91709,7 +92792,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
+  m_Offset: {x: 0, y: 1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -91785,7 +92868,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -91815,8 +92898,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &2122812519
 GameObject:
   m_ObjectHideFlags: 0
@@ -91865,7 +92948,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -1}
+  m_Offset: {x: 0, y: -1.1}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -91941,7 +93024,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.98454094, g: 1, b: 0, a: 1}
+  m_Color: {r: 0.98454094, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -91971,8 +93054,8 @@ MonoBehaviour:
   - Bullet
   - StrongBullet
   - Player
-  _normalBulletPower: 10
-  _strongBulletPower: 15
+  _normalBulletPower: 4.2
+  _strongBulletPower: 6.3
 --- !u!1 &2125132294
 GameObject:
   m_ObjectHideFlags: 0
@@ -93222,7 +94305,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1919568721762956683, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1919568721762956683, guid: 6545abc05e56d5a449d6f3e698f672f3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -93279,7 +94362,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7762176906302329443, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7762176906302329443, guid: bf712f44ce290b74d94c6ecf9add0765, type: 3}
       propertyPath: m_LocalPosition.x

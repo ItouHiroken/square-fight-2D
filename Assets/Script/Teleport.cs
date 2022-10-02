@@ -24,6 +24,9 @@ public class Teleport : MonoBehaviour
             Vector3 forceDirection = gameObject.transform.position.normalized - _teleportPoint.transform.position.normalized;
             Vector3 force = _normalBulletPower * forceDirection;
             a.layer = collision.gameObject.layer;
+            a.gameObject.GetComponent<SpriteRenderer>().color = collision.GetComponent<SpriteRenderer>().color;
+            a.GetComponent<TrailRenderer>().startColor = collision.GetComponent<TrailRenderer>().startColor;
+            a.GetComponent<TrailRenderer>().endColor = collision.GetComponent<TrailRenderer>().endColor;
             a.tag = "Teleported";
             Rigidbody2D rb = a.gameObject.GetComponent<Rigidbody2D>();
             rb.AddForce(force, ForceMode2D.Impulse);
