@@ -15,6 +15,13 @@ public class Ground : MonoBehaviour
     [SerializeField] Color BlackColor = Color.black;
     [SerializeField] Color WhiteColor = Color.white;
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            ChangeColor();
+        }
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         ChangeColor();

@@ -9,6 +9,8 @@ TagManager:
   - Bullet
   - StrongBulletItem
   - Teleported
+  - SummonPoint
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -23,7 +25,7 @@ TagManager:
   - BlackWall
   - WhiteWall
   - Limit
-  - 
+  - Item
   - 
   - 
   - 
