@@ -20,10 +20,7 @@ public class Enemy : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-            Destroy(collision.gameObject);
-        }
+
         if (collision.gameObject.CompareTag("Bullet") ||
             collision.gameObject.CompareTag("StrongBullet") ||
             collision.gameObject.CompareTag("Teleported"))
@@ -34,16 +31,21 @@ public class Enemy : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log("a");
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            Destroy(collision.gameObject);
+        }
         if (collision.gameObject.CompareTag("Bullet") ||
             collision.gameObject.CompareTag("StrongBullet") ||
             collision.gameObject.CompareTag("Teleported"))
         {
             Destroy(gameObject);
+            Destroy(collision.gameObject);
         }
     }
     private void OnDestroy()
     {
-        Instantiate(_deathEffect);
+        Instantiate(_deathEffect,gameObject.transform.position-new Vector3(0,0,3),_deathEffect.transform.rotation);
     }
     void FollowPlayer()
     {
