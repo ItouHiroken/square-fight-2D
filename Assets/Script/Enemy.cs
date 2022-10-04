@@ -39,13 +39,10 @@ public class Enemy : MonoBehaviour
             collision.gameObject.CompareTag("StrongBullet") ||
             collision.gameObject.CompareTag("Teleported"))
         {
+            Instantiate(_deathEffect, gameObject.transform.position - new Vector3(0, 0, 3), _deathEffect.transform.rotation);
             Destroy(gameObject);
             Destroy(collision.gameObject);
         }
-    }
-    private void OnDestroy()
-    {
-        Instantiate(_deathEffect,gameObject.transform.position-new Vector3(0,0,3),_deathEffect.transform.rotation);
     }
     void FollowPlayer()
     {
