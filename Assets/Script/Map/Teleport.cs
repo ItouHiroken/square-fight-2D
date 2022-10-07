@@ -15,6 +15,10 @@ public class Teleport : MonoBehaviour
         {
             collision.gameObject.transform.position = _teleportPoint.position;
         }
+        if (collision.gameObject.CompareTag(_bulletTagName[3]))//Enemy
+        {
+            collision.gameObject.transform.position = _teleportPoint.position;
+        }
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
